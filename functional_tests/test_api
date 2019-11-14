@@ -1,0 +1,180 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://xkcd.com/162/
+  response:
+    body:
+      string: !!binary |
+        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
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '142'
+      Cache-Control:
+      - max-age=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '3238'
+      Content-Type:
+      - text/html
+      Date:
+      - Tue, 12 Nov 2019 16:59:32 GMT
+      ETag:
+      - W/"5dc9d6a8-1fa3"
+      Expires:
+      - Tue, 12 Nov 2019 17:02:11 GMT
+      Last-Modified:
+      - Mon, 11 Nov 2019 21:46:16 GMT
+      Server:
+      - nginx
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      X-Served-By:
+      - cache-dal21241-DAL
+      X-Timer:
+      - S1573577973.837592,VS0,VE0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://xkcd.com/162/info.0.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA9VTwWrcQAz9FeFTC8abBhroXpYcSik0veSQQxyCbM96pjuWzIwmjln23yuZzbX3
+        Hgzy0+jpPY3mXE1M4qs9VN+qGioqk8Zf7m41joFOljB8dZgsvr25udvOuSV/5DIe3asEic6QexpL
+        xAQPPDkSpdMTkpByn8IsduL5+QEJcpAMTOBDhs4NNUTmU6ARUABhDCnC4hk0m+dApJkG4KcYQGH0
+        0ry8tGREyqH1e3jyVpkcrFxgYC04QEs/lGgPj1cK6LmQuNRH7k9LyK6l79h7kJIIEncZxDuYI5IT
+        4CPg1cx0NdPSY+TFiEy9CYNu3WokUHBZoAvS0i9Ho4JbR0tugmuYS/YGddifNnzAhUzim6GTU98x
+        iM5R+yWjVMi7pCKfgnjz1dL5vE0axL2LejY8OcxM2CmKOZdplsCUATsuAhH1fBk0RQN0PKyQPc6u
+        Bs8LTMW8W5vJFGrKwYhqSsVNB4DfLG6v14Di3lzaJOtFLi7VkAslnR9gXHDNOtfJ6fCYITNTA5/u
+        Y+baLisILJxUpgbhuLUQn3jJUObD58vF9gPjthj/vRvzEqbRvHiROe93O/3NzfupHxol3ekX+ry7
+        rtXrx1o1f+Zxeyf/ekQDrtsL/Fpd/gI9OLSBtgMAAA==
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '0'
+      Cache-Control:
+      - max-age=300
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '487'
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 12 Nov 2019 17:19:48 GMT
+      ETag:
+      - W/"5dc9d6aa-3b6"
+      Expires:
+      - Tue, 12 Nov 2019 17:24:48 GMT
+      Last-Modified:
+      - Mon, 11 Nov 2019 21:46:18 GMT
+      Server:
+      - nginx
+      Vary:
+      - Accept-Encoding
+      Via:
+      - 1.1 varnish
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Served-By:
+      - cache-dal21237-DAL
+      X-Timer:
+      - S1573579188.287900,VS0,VE143
+    status:
+      code: 200
+      message: OK
+version: 1

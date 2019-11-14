@@ -2,3 +2,4 @@ superlists/db.sqlite3
 cached superlists/superlists/__pycache__
 cached superlists/superlists/__pycache__
 superlists/lists/__pycache__
+*.pyc
