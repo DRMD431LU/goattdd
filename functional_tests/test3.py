@@ -8,6 +8,7 @@ Created on Tue Nov 12 09:58:10 2019
 from selenium import webdriver
 import unittest
 from selenium.webdriver.common.keys import Keys
+import time
 
 class NewVisitorTest(unittest.TestCase):
     def setUp(self):
@@ -33,13 +34,16 @@ class NewVisitorTest(unittest.TestCase):
             )
         inputbox.send_keys('Buy stuff')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(3)
         table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_element_by_tag_name('tr')
-        self.assertTrue(
-                any(row.text == '1: Buy stuff' for row in rows),
-                "new item didn't appear in table"
-            )
-        self.fail('Test finalizado')
+        rows = table.find_elements_by_tag_name('tr')
+        #self.assertTrue(
+        #        any(row.text == '1: Buy stuff' for row in rows),
+        #        "new item didn't appear in table"
+        #    )
+        self.assertIn('1: Buy stuff', [row.text for row in rows])
+
+        #self.fail('Test finalizado')
         
         """functionalities pending"""
 
