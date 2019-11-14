@@ -42,6 +42,7 @@ class NewVisitorTest(unittest.TestCase):
         #        "new item didn't appear in table"
         #    )
         self.assertIn('1: Buy stuff', [row.text for row in rows])
+        self.assertIn('2: Use it to fly', [row.text for row in rows])
 
         #self.fail('Test finalizado')
         
