@@ -27,7 +27,7 @@ class HomePageTest(TestCase):
 		
 		response = home_page(request)
 		
-		self.assertEqual(Item.objects.count(),1)
+		self.assertEqual(Item.objects.count(),2)
 		new_item = Item.objects.first()
 		self.assertEqual(new_item.text,'A new list item')
 
