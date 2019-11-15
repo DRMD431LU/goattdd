@@ -41,9 +41,10 @@ class NewVisitorTest(unittest.TestCase):
         inputbox.send_keys(Keys.ENTER)
         self.check_for_row_in_list_table('1: Buy stuff')
 
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox.send_keys('Use it to fly')
-        inputbox.send_keys(Keys.ENTER)
+        #inputbox = self.browser.find_element_by_id('id_new_item')
+        #inputbox.send_keys('Use it to fly')
+        #inputbox.send_keys(Keys.ENTER)
+
         self.check_for_row_in_list_table('1: Buy stuff')
         self.check_for_row_in_list_table('2: Use it to fly')
 
