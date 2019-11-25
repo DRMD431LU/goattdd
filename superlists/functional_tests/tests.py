@@ -41,7 +41,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy stuff')
         inputbox.send_keys(Keys.ENTER)
         self.browser.implicitly_wait(1)
-        print('1')
+
         #print(edith_list_url)
         self.check_for_row_in_list_table('1: Buy stuff')
 
@@ -49,15 +49,12 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Use it to fly')
         inputbox.send_keys(Keys.ENTER)
 
-        print('2')
         self.check_for_row_in_list_table('1: Buy stuff')
+        self.browser.implicitly_wait(1)
         self.check_for_row_in_list_table('2: Use it to fly')
         edith_list_url = self.browser.current_url
         self.assertRegex(edith_list_url, '/lists/*')
-
-        time.sleep(3)
         
-        print('3')
         self.browser.quit()
         self.browser = webdriver.Firefox()
 
@@ -71,9 +68,8 @@ class NewVisitorTest(LiveServerTestCase):
         self.assertNotEqual(francis_list_url, edith_list_url)
 
         page_text = self.browser.find_element_by_tag_name('body').text
-        self.asserNotIn('Buy stuff', page_text)
+        self.asserIn('Buy stuff', page_text)
         self.assertIn('Buy milk', page_text)
-
 
         """functionalities pending"""
 
